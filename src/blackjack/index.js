@@ -13,6 +13,7 @@ const tipos      = ['C','D','H','S'];
 const especiales = ['A','J','Q','K'];
 
 let puntosJugador = 0
+    // puntosComputadora = 0
 
 // Referencias del HTML
 const btnPedir   = document.querySelector('#btnPedir');
@@ -67,7 +68,7 @@ btnNuevo.addEventListener('click', () => {
     deck = crearDeck(tipos, especiales);
 
     puntosJugador     = 0;
-    puntosComputadora = 0;
+    // puntosComputadora = 0;
     
     puntosHTML[0].innerText = 0;
     puntosHTML[1].innerText = 0;
